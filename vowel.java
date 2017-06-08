@@ -11,7 +11,7 @@ string s=scan.next();
 char p=s.charAt(0);
 for(i=0;i<5;i++)
 {
-if(d[i]==s)
+if(d[i]==p)
 {
 count=d[i];
 }
