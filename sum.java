@@ -8,10 +8,9 @@ Scanner scan=new Scanner(System.in);
 String s=scan.nextLine();
 int a=Integer.parseInt(s);
 int b=0;
-for(int i=0;i<a;i++)
+for(int i=0;i<=a;i++)
 {
-b=b+a;
-b--;
+b+=i;
 }
 System.out.print(b);
 }
